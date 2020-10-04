@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            padding: 32px 32px;
+            font-size: 24px;
+            border-radius: 12px;
+            background-color: #4CAF50;
+        }
+		.button3 {
+            padding: 32px 32px;
+            font-size: 24px;
+            border-radius: 12px;
+            background-color: #008CBA;
+        }
+		
+		.msg1 {
+            padding: 64px 64px;
+            font-size: 32px;
+            border-radius: 12px;
+            background-color: #f44336;
+        }
+		
+    </style>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+	<button class="button2" id="2" onclick="myFunction(this.id)">2</button>
+    <button class="button3" id="3" onclick="myFunction(this.id)">3</button>
+	<button class="msg1" id="msg1" onclick="alert('Hello World')">Hello World</button>
+
+</body>
+
+</html>
